@@ -41,6 +41,8 @@ def findStepsEfficient(n):
         # prev3 = prev2
         # prev2 = prev1
         # prev1 = steps
+
+        # What is the complexity of the data structure?
         steps = sum(pi)
         pi.pop(0)
         pi.append(steps)
